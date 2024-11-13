@@ -1,26 +1,24 @@
-body{
-    background-color: mistyrose;
-}
-h1{
+
+/* h1{
     text-align: center;
     /* background-color: #cb7579; */
-}
-img{
+} */
+/* img{
     border-radius: 50%;
     align-items: center;
-}
-div{
+} */
+/* div{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-}
-a{
+} */
+/* a{
     text-decoration: none;
     align-items: center;
     color: white;
-}
-button{
+} */
+/* button{
     width: 200px;
     padding: 10px;
    margin-left: 40%;
@@ -32,4 +30,197 @@ button{
     cursor: pointer;
     align-items: center;
     background-color: black;
+    */
+body{
+    background-color: rgb(169, 196, 255);
+    margin: 0px;
+    
+    }
+    .cedarville-cursive-regular {
+        font-family: "Cedarville Cursive", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+header{
+    background-color:rgb(54, 209, 190);
+    margin: 0px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.header-content{
+        padding: 30px;
+               
+}
+a{
+    padding: 0 10px;
+    text-decoration: none;
+}
+.header{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+   margin-left: 10px;
+    
+}
+.title{
+    text-align: center;
+
+}
+.title-content{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+
+}
+.resume{
+   text-align: center;
+    
+}
+button{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(54, 209, 190);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+.bottom-container{
+    background-color: rgb(54, 209, 190);
+      text-align: center;
+    padding: 30px 0;
+    margin-top:20px;
+}
+img{
+   
+    justify-content: space-around;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    
+  
+}
+.image{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 25% 25%; 
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.content{
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+}
+p{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: large;
+}
+h4{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: large;
+    font-size: 1.900rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  /* tools and technology */
+  .skills ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.skills ul li {
+    background-color: rgb(54, 209, 190);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+/* Project */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color:  rgb(54, 209, 190);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    /* font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+        font-style: normal; */
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 25px;
+    font-size:1.3rem ;
+}
+
+.project-card a:hover {
+    color: #0073e6;
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(54, 209, 190);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
