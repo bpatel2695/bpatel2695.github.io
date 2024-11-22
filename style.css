@@ -44,8 +44,9 @@ body{
 header{
     background-color:rgb(54, 209, 190);
     margin: 0px;
-   position: fixed;
+   
     display: flex;
+
     justify-content: space-between;
 }
 .logo{
