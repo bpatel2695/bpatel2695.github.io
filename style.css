@@ -44,7 +44,7 @@ body, html{
 }
 .nav-options .home:hover{
    color: black;
-   border-bottom : 4px solid palegreen;
+   border-bottom : 4px solid #0073e6;
  
  }
 
@@ -60,7 +60,7 @@ body, html{
 
 .nav-options a:hover{
     
-    color:palegreen;
+    color:#0073e6;
     border-bottom : 4px solid black;
 }
 
@@ -73,7 +73,7 @@ body, html{
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
-    color: palegreen;
+    color: #0073e6;
     padding-right: 0px;
     text-decoration: none;
    
@@ -109,7 +109,7 @@ color: black; */
 }
 
 .main-left-h1{
-    color: palegreen;
+    color: #0073e6;
     font-size: 25px;
     
 }
@@ -151,7 +151,7 @@ size: 200px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    color: palegreen;
+    color: #0073e6;
     font-size: 15px;
     font-weight: 500;
 }
@@ -159,7 +159,7 @@ size: 200px;
 .main-left-btn a{
     
     text-decoration: none;
-    color: palegreen;
+    color: #0073e6;
 
 }
 
@@ -215,11 +215,11 @@ h4{
 }
 
 .about-top-para span{
-    color: palegreen;
+    color: #0073e6;
 }
 
 .about-top-para span:hover{
-    color:black;
+    color:rgb(64, 63, 63);
 }
 
 /* About me right section */
@@ -238,7 +238,7 @@ h4{
 }
 .about-down-h1:hover{
    
-    color: palegreen;
+    color: #0073e6;
 }
 .about-social{
     display: flex;
@@ -255,7 +255,7 @@ h4{
 }
 
 .about-link:hover {
-    color: palegreen;
+    color: #0073e6;
 }
 
 /* Skills Section */
@@ -313,7 +313,7 @@ padding-top: 20px;
     transition: border 0.5s 0.5s ease-in;
   }
   .projects-img:hover{
-    border: 25px solid palegreen;
+    border: 25px solid #0073e6;
     scale: 1.1;
 }
 .projects-data{
@@ -359,11 +359,11 @@ padding-top: 20px;
 }
 
 .projects-button:hover{
-    color:palegreen;
+    color:#0073e6;
 }
 
 .section-title:hover{
-color: palegreen;
+color: #0073e6;
 }
 
 .section-title{
@@ -435,7 +435,7 @@ color: palegreen;
     margin-left: 30px;
 }
 .contact-left-h1:hover{
-    color: palegreen;
+    color: #0073e6;
 }
 .contact-left-phone i{
     font-size: 30px;
@@ -446,14 +446,14 @@ color: palegreen;
 
  }
 .contact-left-phone i:hover{
-    color: palegreen;
+    color: #0073e6;
 
 }
 .contact-left-phone span{
     font-size: 25px;
 }
 .contact-left-phone span:hover{
-    color: palegreen;
+    color: #0073e6;
 }
 .contact-left-email{
     margin-left: 30px;
@@ -472,7 +472,7 @@ color: palegreen;
     width: 7%;
 }
 .contact-left-email :hover{
-    color: palegreen;
+    color: #0073e6;
 }
 
 /* Contact-Right */
@@ -491,7 +491,7 @@ form h2{
 }
 
 form h2:hover{
-    color: palegreen;
+    color: #0073e6;
 }
 form p{
     font-size: 20px;
@@ -525,7 +525,7 @@ form button{
     border-radius: 10px;
     background-color: black;
     margin-top: 20px;
-    color: palegreen;
+    color:#0073e6;
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -543,7 +543,7 @@ form button{
     padding-top: 205px;
 }
 .service-h1:hover{
-    color: palegreen;
+    color: #0073e6;
 }
 
 .services-boxes{
@@ -560,7 +560,7 @@ form button{
     height: 250px;
     width: 300px;
     background-color:black;
-    color: palegreen;
+    color: #0073e6;
     border-radius: 20px;
     scale: 0.90;
     transition: scale 1s 1s ease-in;
@@ -592,7 +592,7 @@ form button{
     height: 250px;
     width: 300px;
     background-color: black;
-    color: palegreen;
+    color: #0073e6;
     border-radius: 20px;
     scale: 0.90;
     transition: scale 1s 1s ease-in;
@@ -626,7 +626,7 @@ form button{
     height: 250px;
     width: 300px;
     background-color: black;
-    color: palegreen;
+    color: #0073e6;
     border-radius: 20px;
     scale: 0.90;
     transition: scale 1s 1s ease-in;
